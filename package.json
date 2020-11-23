@@ -1,0 +1,16 @@
+{
+  "name": "zelor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "triggerAllTests": "npx cypress run --headless",
+    "triggerAllTests-FireFox": "npx cypress run --browser firefox",
+    "triggerAllTests-headless": "npx cypress run"
+  },
+  "author": "Pradeep Valasala",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^5.5.0"
+  }
+}
